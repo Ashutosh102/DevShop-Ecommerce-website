@@ -1,2 +1,2 @@
-# DevShop-Ecommerce-website
-A project on creating an ecommerce website, with some unique features^....^
+# Responsive Ecommerce Website
+This is a open source project.

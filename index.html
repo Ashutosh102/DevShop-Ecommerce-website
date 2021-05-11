@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+  <!-- Box icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+
+  <!-- Custom StyleSheet -->
+  <link rel="stylesheet" href="./css/styles.css" />
+  <title>DevShop - Ecommerce Website</title>
+  <style>
+    #example1 {
+      background-color: rgb(33, 21, 85);
+      height: 275px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 1.6rem;
+      font-weight: 400;
+
+
+      position: relative;
+      z-index: 1;
+
+    }
+
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="example1">
+    <img src="coollogo.gif" height="275" width="275" alt="coollogo" class="center" />
+
+  </div>
+
+  <!-- Header -->
+  <header id="home" class="header">
+    <!-- Navigation -->
+    <nav class="nav">
+      <div class="navigation container">
+        <div class="logo">
+
+          <h1>DevShop</h1>
+        </div>
+
+        <div class="menu">
+
+          <div class="top-nav">
+
+            <div class="logo">
+
+              <h1>DevShop</h1>
+
+            </div>
+
+            <div class="close">
+              <i class="bx bx-x"></i>
+            </div>
+          </div>
+          <!-- search bar right align -->
+          <div class="search">
+            <form action="product.html">
+              <input type="text" placeholder=" Search Products" name="search">
+              <button>
+                <i class="fa fa-search" style="font-size: 18px;">
+                </i>
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link scroll-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="product.html" class="nav-link">More Products</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link scroll-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link scroll-link">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="account.html" class="nav-link scroll-link">Account</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="cart.html" class="nav-link icon"><i class="bx bx-shopping-bag"></i></a>
+          </li>
+        </ul>
+      </div>
+
+      <a href="cart.html" class="cart-icon">
+        <i class="bx bx-shopping-bag"></i>
+      </a>
+
+      <div class="hamburger">
+        <i class="bx bx-menu"></i>
+      </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <img src="./images/PicsArt_04-30-07.39.10 (1).png" alt="" class="hero-img" />
+
+    <div class="hero-content">
+      <h2><span class="discount">70% </span> SALE OFF</h2>
+      <h1>
+        <span>Cool Vibes</span>
+        <span>mode on</span>
+      </h1>
+      <a class="btn" href="#">shop now</a>
+    </div>
+  </header>
+
+  <!-- Start of ChatBot (www.chatbot.com) code -->
+  <script type="text/javascript">
+    window.__be = window.__be || {};
+    window.__be.id = "6093fdb2e3eaf50007a5f28d";
+    (function () {
+      var be = document.createElement('script'); be.type = 'text/javascript'; be.async = true;
+      be.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.chatbot.com/widget/plugin.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(be, s);
+    })();
+  </script>
+  <!-- End of ChatBot code -->
+
+  <!-- Main -->
+  <main>
+    <section class="advert section">
+      <div class="advert-center container">
+        <div class="advert-box">
+          <div class="dotted">
+            <div class="content">
+              <h2>
+                Girls <br />
+                Clothing
+              </h2>
+              <h4>Worlds Best Brands</h4>
+            </div>
+          </div>
+          <img src="./images/blackwidow.jpg" alt="">
+        </div>
+
+        <div class="advert-box">
+          <div class="dotted">
+            <div class="content">
+              <h2>
+                Summer <br />
+                Clothing
+              </h2>
+              <h4>Worlds Best Brands</h4>
+            </div>
+          </div>
+          <img src="./images/thor.png" alt="">
+        </div>
+
+        <div class="advert-box">
+          <div class="dotted">
+            <div class="content">
+              <h2>
+                Boys <br />
+                Clothing
+              </h2>
+              <h4>Worlds Best Brands</h4>
+            </div>
+          </div>
+          <img src="./images/male-fashion.png" alt="">
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured -->
+    <section class="section featured">
+      <div class="title">
+        <h1>Featured Products</h1>
+      </div>
+
+      <div class="product-center container">
+        <div class="product">
+          <div class="product-header">
+            <img src="./images/initiative.jpg" alt="">
+            <ul class="icons">
+              <span><i class="bx bx-heart"></i></span>
+              <span><i class="bx bx-shopping-bag"></i></span>
+              <span><i class="bx bx-search"></i></span>
+            </ul>
+          </div>
+          <div class="product-footer">
+            <a href="#">
+              <h3>Boy’s T-Shirt</h3>
+            </a>
+            <div class="rating">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bx-star"></i>
+            </div>
+            <h4 class="price">500/-</h4>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product-header">
+            <img src="./images/spidey.jpg" alt="">
+            <ul class="icons">
+              <span><i class="bx bx-heart"></i></span>
+              <span><i class="bx bx-shopping-bag"></i></span>
+              <span><i class="bx bx-search"></i></span>
+            </ul>
+          </div>
+          <div class="product-footer">
+            <a href="#">
+              <h3>Boy’s T-Shirt</h3>
+            </a>
+            <div class="rating">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bx-star"></i>
+            </div>
+            <h4 class="price">500/-</h4>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product-header">
+            <img src="./images/tony.jpg" alt="">
+            <ul class="icons">
+              <span><i class="bx bx-heart"></i></span>
+              <span><i class="bx bx-shopping-bag"></i></span>
+              <span><i class="bx bx-search"></i></span>
+            </ul>
+          </div>
+          <div class="product-footer">
+            <a href="#">
+              <h3>Boy’s T-Shirt</h3>
+            </a>
+            <div class="rating">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bx-star"></i>
+            </div>
+            <h4 class="price">500/-</h4>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product-header">
+            <img src="./images/camo.jpg" alt="">
+
+            <ul class="icons">
+              <span><i class="bx bx-heart"></i></span>
+              <span><i class="bx bx-shopping-bag"></i></span>
+              <span><i class="bx bx-search"></i></span>
+            </ul>
+          </div>
+          <div class="product-footer">
+            <a href="#">
+              <h3>Boy’s Joggers</h3>
+            </a>
+            <div class="rating">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bx-star"></i>
+            </div>
+            <h4 class="price">800/-</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Latest -->
+    <section class="section featured">
+      <div class="title">
+        <h1>Latest Products</h1>
+      </div>
+
+      <div class="product-center container">
+        <div class="product">
+          <div class="product-header">
+            <img src="./images/sneakers.jpeg" alt="">
+
+            <ul class="icons">
+              <span><i class="bx bx-heart"></i></span>
+              <span><i class="bx bx-shopping-bag"></i></span>
+              <span><i class="bx bx-search"></i></span>
+            </ul>
+          </div>
+          <div class="product-footer">
+            <a href="#">
+              <h3>Boy’s sneakers</h3>
+            </a>
+            <div class="rating">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bx-star"></i>
+            </div>
+            <h4 class="price">670/-</h4>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product-header">
+            <img src="./images/stark.jpg" alt="">
+
+            <ul class="icons">
+              <span><i class="bx bx-heart"></i></span>
+              <span><i class="bx bx-shopping-bag"></i></span>
+              <span><i class="bx bx-search"></i></span>
+            </ul>
+          </div>
+          <div class="product-footer">
+            <a href="#">
+              <h3>Boy’s Arc-Reactor T-Shirt</h3>
+            </a>
+            <div class="rating">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bx-star"></i>
+            </div>
+            <h4 class="price">500/-</h4>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product-header">
+            <img src="./images/acid.jpg" alt="">
+
+            <ul class="icons">
+              <span><i class="bx bx-heart"></i></span>
+              <span><i class="bx bx-shopping-bag"></i></span>
+              <span><i class="bx bx-search"></i></span>
+            </ul>
+          </div>
+          <div class="product-footer">
+            <a href="#">
+              <h3>Spiderman acid wash T-Shirt</h3>
+            </a>
+            <div class="rating">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bx-star"></i>
+            </div>
+            <h4 class="price">500/-</h4>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product-header">
+            <img src="./images/wolvy.jpg" alt="">
+
+            <ul class="icons">
+              <span><i class="bx bx-heart"></i></span>
+              <span><i class="bx bx-shopping-bag"></i></span>
+              <span><i class="bx bx-search"></i></span>
+            </ul>
+          </div>
+          <div class="product-footer">
+            <a href="#">
+              <h3>Men’s Joggers</h3>
+            </a>
+            <div class="rating">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bx-star"></i>
+            </div>
+            <h4 class="price">800/-</h4>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product-header">
+            <img src="./images/cap.jpg" alt="">
+
+            <ul class="icons">
+              <span><i class="bx bx-heart"></i></span>
+              <span><i class="bx bx-shopping-bag"></i></span>
+              <span><i class="bx bx-search"></i></span>
+            </ul>
+          </div>
+          <div class="product-footer">
+            <a href="#">
+              <h3>Boy’s captain T-Shirt</h3>
+            </a>
+            <div class="rating">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bx-star"></i>
+            </div>
+            <h4 class="price">500/-</h4>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product-header">
+            <img src="./images/cap2.jpg" alt="">
+
+            <ul class="icons">
+              <span><i class="bx bx-heart"></i></span>
+              <span><i class="bx bx-shopping-bag"></i></span>
+              <span><i class="bx bx-search"></i></span>
+            </ul>
+          </div>
+          <div class="product-footer">
+            <a href="#">
+              <h3>Boy’s cap pattern Shirt</h3>
+            </a>
+            <div class="rating">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bx-star"></i>
+            </div>
+            <h4 class="price">700/-</h4>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product-header">
+            <img src="./images/spidey2.jpg" alt="">
+
+            <ul class="icons">
+              <span><i class="bx bx-heart"></i></span>
+              <span><i class="bx bx-shopping-bag"></i></span>
+              <span><i class="bx bx-search"></i></span>
+            </ul>
+          </div>
+          <div class="product-footer">
+            <a href="#">
+              <h3>Spidey full sleeve T-Shirt</h3>
+            </a>
+            <div class="rating">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bx-star"></i>
+            </div>
+            <h4 class="price">550/-</h4>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product-header">
+            <img src="./images/IronMan.jpg" alt="">
+
+            <ul class="icons">
+              <span><i class="bx bx-heart"></i></span>
+              <span><i class="bx bx-shopping-bag"></i></span>
+              <span><i class="bx bx-search"></i></span>
+            </ul>
+          </div>
+          <div class="product-footer">
+            <a href="#">
+              <h3>Boy’s IronMan sweat-shirt</h3>
+            </a>
+            <div class="rating">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bx-star"></i>
+            </div>
+            <h4 class="price">680/-</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Banner -->
+    <section class="section">
+      <div class="product-banner">
+        <div class="left">
+          <img src="./images/Whatever it takes sale is live now!! (1).png" alt="" />
+        </div>
+        <div class="right">
+          <div class="content">
+            <h2><span class="discount">70% </span> SALE OFF</h2>
+            <h1>
+              <span>Collect Your</span>
+              <span>Hero's Collection</span>
+            </h1>
+            <a class="btn" href="#">shop now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section">
+      <div class="testimonial-center container">
+        <div class="testimonial">
+          <span>&ldquo;</span>
+          <p>
+            Overall a personal favorite project I ever made.
+            A cool and responsive website.
+            A boost for a developer^..^
+          </p>
+          <div class="rating">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bx-star"></i>
+          </div>
+          <div class="img-cover">
+            <img src="./images/ashubhai.png" alt="" />
+          </div>
+          <h4>Ashu(Dev)|"|</h4>
+        </div>
+        <div class="testimonial">
+          <span>&ldquo;</span>
+          <p>
+            Awesome guys!! fully packed shopping site.
+            Full boom bam!! Made by my bro Ashu, loved it.
+          </p>
+          <div class="rating">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bx-star"></i>
+          </div>
+          <div class="img-cover">
+            <img src="./images/bikash.jpg" alt="" />
+          </div>
+          <h4>Hulky Boom!</h4>
+        </div>
+        <div class="testimonial">
+          <span>&ldquo;</span>
+          <p>
+            Op website guys!! Wonderful shopping experience.
+            Ashu is a cool developer. I just like it, you also
+            have a visit
+          </p>
+          <div class="rating">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bx-star"></i>
+          </div>
+          <div class="img-cover">
+            <img src="./images/Devi.jpg" alt="" />
+          </div>
+          <h4>MIMUN Desi Bhai</h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- Brands -->
+    <section class="section">
+      <div class="brands-center container">
+        <div class="brand">
+          <img src="./images/souledstore.png" alt="" />
+        </div>
+        <div class="brand">
+          <img src="./images/LooksGud.png" alt="" />
+        </div>
+        <div class="brand">
+          <img src="./images/Flipkart_logo.png" alt="" />
+        </div>
+        <div class="brand">
+          <img src="./images/Amazon-Logo.png" alt="" />
+        </div>
+        <div class="brand">
+          <img src="./images/brand1.png" alt="" />
+        </div>
+        <div class="brand">
+          <img src="./images/brand2.png" alt="" />
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer" class="section footer">
+    <div class="container">
+      <div class="footer-container">
+        <div class="footer-center">
+          <h3>EXTRAS</h3>
+          <a href="#">Brands</a>
+          <a href="#">Gift Certificates</a>
+          <a href="#">Affiliate</a>
+          <a href="product.html">Specials</a>
+          <a href="Chatbot.html">Advanced Bot</a>
+        </div>
+        <div class="footer-center">
+          <h3>INFORMATION</h3>
+          <a href="about.html">About Us</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Contact Us</a>
+          <a href="map.html">Site Map</a>
+        </div>
+        <div class="footer-center">
+          <h3>MY ACCOUNT</h3>
+          <a href="account.html">My Account</a>
+          <a href="#">Order History</a>
+          <a href="cart.html">Wish List</a>
+          <a href="login.html">Log in</a>
+
+        </div>
+        <div class="footer-center">
+          <h3>CONTACT US</h3>
+          <div>
+            <span>
+              <i class="fas fa-map-marker-alt"></i>
+            </span>
+            Plot no.-1125,Tankpani Road,Bhubaneswar,Odisha
+          </div>
+          <div>
+            <span>
+              <i class="far fa-envelope"></i>
+            </span>
+            ashutoshmohanty3815@gmail.com
+          </div>
+          <div>
+            <span>
+              <i class="fas fa-phone"></i>
+            </span>
+            +91-7749067820
+          </div>
+          <div>
+            <span>
+              <i class="far fa-paper-plane"></i>
+            </span>
+            Odisha,India
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </footer>
+  <!-- End Footer -->
+  <div class="address">
+    <h1>My Address</h1>
+    <div class="mapouter">
+      <div class="gmap_canvas"><iframe width="1200" height="500" id="gmap_canvas"
+          src="https://maps.google.com/maps?q=Bishnu%20nagar,Bhubaneswar,odisha&t=k&z=15&ie=UTF8&iwloc=&output=embed"
+          frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+          href="https://soap2day-to.com"></a><br>
+        <style>
+          .mapouter {
+            position: relative;
+            text-align: right;
+            height: 500px;
+            width: 600px;
+          }
+        </style><a href="https://www.embedgooglemap.net">google map on my website</a>
+        <style>
+          .gmap_canvas {
+            overflow: hidden;
+            background: none !important;
+            height: 500px;
+            width: 600px;
+          }
+        </style>
+      </div>
+    </div>
+    <h1>copyright DevShop.com 2021</h1>
+  </div>
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+  <!-- Custom Script -->
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
